@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['tire']
+
+roboflow:
+  workspace: pineit
+  project: tire-detect-c6zem
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pineit/tire-detect-c6zem/dataset/1
